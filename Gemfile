@@ -24,6 +24,7 @@
 
 source 'https://rubygems.org'                             # This tells Bundler where to look for gems
 
+gem 'asciidoctor'
 gem 'awestruct', '0.5.4.rc3'                               # Goes without saying
 gem 'rake', '>= 0.9.2'                                    # Needed for the Rakefile to work
 # gem 'coffee-script', '>= 2.2.0'                         # If using coffee-script or to remove the warning
