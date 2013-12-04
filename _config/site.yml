@@ -18,3 +18,17 @@ asciidoctor:
     idseparator: '-'
     sectanchors: ''
     icons: font
+profiles:
+  development:
+    deploy: nil 
+  production:
+    base_url: http://lightguard.github.io/writeadapt-lightguard
+    ctx_path: /writeadapt-lightguard
+    asciidoctor:
+      :attributes:
+        base_url: http://lightguard.github.io/writeadapt-lightguard
+        ctx_path: /writeadapt-lightguard
+        imagesdir: http://lightguard.github.io/writeadapt-lightguard/images 
+    deploy:
+      host: github_pages
+      branch: gh-pages
