@@ -27,6 +27,7 @@ source 'https://rubygems.org'                             # This tells Bundler w
 gem 'asciidoctor'
 gem 'awestruct', '0.5.4.rc3'                               # Goes without saying
 gem 'rake', '>= 0.9.2'                                    # Needed for the Rakefile to work
+gem 'git', '~> 1.2.5'
 # gem 'coffee-script', '>= 2.2.0'                         # If using coffee-script or to remove the warning
 # gem 'rb-fsevent', '~> 0.9', :require => false           # to remove warning about pulling, Mac OSX
 # gem 'rb-inotify', '>= 0.9.0', :require => false         # to remove warning about pulling, Linux
